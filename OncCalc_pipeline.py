@@ -21,7 +21,6 @@ if __name__ == '__main__':
     mask_path = args.mask
    # output_path = args.I
     
-    
     for file in os.listdir(input_path):
         new_path = os.path.join(input_path, file) 
         # load an image for 
@@ -33,10 +32,15 @@ if __name__ == '__main__':
             print(f" post prediction {file}")
             
             #TotalSegmentator output data
-            total_seg_data = total_seg_img.get_fdata()
+            #print(type(total_seg_img))
+            #print(total_seg_img.header)
             
+            total_seg_data = total_seg_img.get_fdata()
+            print("\n")
+            print("data accessed")
             #get the inference file name according to the nnUNet format
-            predicted_name = file.split("_0000")[0] + "nii.gz"
+            predicted_name = file.split("_0000")[0] + ".nii.gz"
+            print(predicted_name)
             predicted_image = nb.load(os.path.join(mask_path, predicted_name))
             
             predicted_data = predicted_image.get_fdata()
@@ -89,3 +93,4 @@ if __name__ == '__main__':
                 outfile2.write(f"image is {file}, predicted cac:{p_score}, outcome: {outcome}\n")
         except:
             print("Image could not be processed, continuing")
+            
