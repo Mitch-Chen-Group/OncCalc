@@ -5,6 +5,12 @@ This is work which is based on the nnUNet architecture developed by the team at 
 Please refer to the paper by Fabian Isensee which can be found [here](https://www.nature.com/articles/s41592-020-01008-z).
 
 Instructions to use the model are as follows:
+### Setting Up
+  * run the command `
+    conda env create -f environment.yml` in the terminal to create the virtual environment with the required depencies.
+  * To activate the environment run `conda activate medical-imaging-env`. Keep in mind that you need to always activate the virtual environment to use the pipeline.
+  * Deactive the environment with `conda deactivate`
+
 ### SEGMENTATION
   * Firstly, Install nnUNet2 by following the [link](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/installation_instructions.md).
   * Create a new folder called `nnUNetDataset` with two subfolders named `nnUNet_raw` and `nnUNet_results`.
@@ -18,10 +24,6 @@ Instructions to use the model are as follows:
     * where `INPUT_FOLDER` is `../nnUNet_raw/Dataset001_Coronary` and `OUTPUT_FOLDER` is where you want the segmentation masks to be saved.
     * `Dataset_NAME_OR_ID` in our example is 1 (corresponding to 001)
 ### TotalSegmentator post-processing and CAC score calculation
-  * Install TotalSegmentator with the command
- ```
- pip install TotalSegmentator
- ```
   * Clone this repository with `git clone https://github.com/Mitch-Chen-Group/OncCalc`
   * Run the following command in terminal of the cloned repository:
    ```
