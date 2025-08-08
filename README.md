@@ -15,6 +15,7 @@ Instructions to use the model are as follows:
   * Firstly, Install nnUNet2 by following the [link](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/installation_instructions.md).
   * Create a new folder called `nnUNetDataset` with two subfolders named `nnUNet_raw` and `nnUNet_results`.
   * In each of these subfolders create a dataset folder using the naming convention: Dataset[DATASET_NAME_OR_ID]_organ-name (DATASET_NAME_OR_ID corresponds to a three digit identification ie: 001 and organ-name is substitued with the organ, we will used Dataset001_Coronary as example).
+  * Before downloading the model you need to run` git lfs install ` to be able to clone large folders.
   * Download the model files [here](https://huggingface.co/Yinka-anifowose/OncCalc/tree/main) into the `nnUNet_results/Dataset001_Coronary` folder.
   * Please familiarise yourself with the dataset format used by nnUNet with the following [link](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/setting_up_paths.md)
     * `nnUNet_raw/Dataset001_Coronary` is where you store your raw images in the required file format and naming convention [image_number]_0000.nii.gz ie `145_0000.nii.gz`.
