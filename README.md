@@ -13,8 +13,7 @@ Instructions to use the model are as follows:
   * `nnUNet_raw/Dataset001_Coronary` is where you store your folder of raw images in the required file format and naming convention [image_number]_0000.nii.gz ie `145_0000.nii.gz`.
   * Please familiarise yourself with the dataset format used by nnUNet with the following [link](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/setting_up_paths.md)
   
-
-### SEGMENTATION
+### Segmentation
   * Firstly, Install nnUNet2 by following the [link](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/installation_instructions.md).
     * Make sure that you install pytorch correctly according to your hardware specifications.
     * For nnUNetv2 use the installation process under the use case of "...out-of-the-box segmentation algorithm or for running inference with pretrained models"
@@ -27,6 +26,7 @@ Instructions to use the model are as follows:
   * Run the following command: `nnUNetv2_predict -i INPUT_FOLDER -o OUTPUT_FOLDER -d DATASET_NAME_OR_ID -c 3d_fullres `:
     * where `INPUT_FOLDER` is `../nnUNet_raw/Dataset001_Coronary` and `OUTPUT_FOLDER` is where you want the segmentation masks to be saved.
     * `Dataset_NAME_OR_ID` in our example is 1 (corresponding to 001)
+
 ### TotalSegmentator post-processing and CAC score calculation
   * run the command `
     conda env create -f environment.yml` in the terminal to create the virtual environment with the required depencies.
