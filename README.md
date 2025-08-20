@@ -2,8 +2,8 @@
 
 This is the code repository supporting the paper manuscript submitted to European Radiology (2025).
 
-1) The main model architecture is based on nnU-Net developed by Isensee et al. [here](https://www.nature.com/articles/s41592-020-01008-z).
-2) Use of TotalSegmentator (nnU-Net-based multi-organ segmentation tool) is made in the pipeline
+1) The model architecture is based on nnU-Net developed by Isensee et al. (2020) [paper](https://www.nature.com/articles/s41592-020-01008-z).
+2) Use of TotalSegmentator (nnU-Net-based multi-organ segmentation tool) is made in the pipeline, by Wasserthal et al. (2023) [paper](https://pubs.rsna.org/doi/10.1148/ryai.230024).
 
 Instructions to use the model are as follows:
 ### Setting Up
