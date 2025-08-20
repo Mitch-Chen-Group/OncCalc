@@ -1,5 +1,4 @@
 ## **For paper "Automated Cardiovascular Risk Assessment in Non-Small Cell Lung Cancer Patients on Routine Low Dose Chest CT using an Optimised nnU-Net Framework"**
-J.O. Anifowose, Z. Li, G. Agarwal, E. O. Aboagye, D. P. O’Regan, B. Ariff, S. J. Copley, M. Chen
 
 This is the code repository supporting the paper manuscript submitted to European Radiology (2025).
 
