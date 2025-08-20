@@ -1,7 +1,7 @@
 ## **For paper "Automated Cardiovascular Risk Assessment in Non-Small Cell Lung Cancer Patients on Routine Low Dose Chest CT using an Optimised nnU-Net Framework"**
 J.O. Anifowose, Z. Li, G. Agarwal, E. O. Aboagye, D. P. O’Regan, B. Ariff, S. J. Copley, M. Chen
 
-This is the code repository supporting the paper manuscript submitted to European Radiology.
+This is the code repository supporting the paper manuscript submitted to European Radiology (2025).
 
 1) The main model architecture is based on nnU-Net developed by Isensee et al. [here](https://www.nature.com/articles/s41592-020-01008-z).
 2) Use of TotalSegmentator (nnU-Net-based multi-organ segmentation tool) is made in the pipeline
