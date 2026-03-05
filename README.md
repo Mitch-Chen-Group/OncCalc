@@ -1,6 +1,6 @@
 ## **For paper "Automated Cardiovascular Risk Assessment in Non-Small Cell Lung Cancer Patients on Routine Low Dose Chest CT using an Optimised nnU-Net Framework"**
 
-This is the code repository supporting our BMC Medical Imaging paper : [paper] https://link.springer.com/article/10.1186/s12880-026-02252-z)
+This is the code repository supporting our paper: 
 
 Anifowose, J.O., Li, Z., Agarwal, G. Aboagye, EO., O'Regan, D., Ariff B., Copley, SJ., & Chen, M. Automated opportunistic cardiovascular risk assessment in non-small cell lung cancer patients on routine chest CT using an optimised nnU-net framework. BMC Med Imaging (2026). https://doi.org/10.1186/s12880-026-02252-z
 
