@@ -2,7 +2,7 @@
 
 This is the code repository supporting our paper: 
 
-Anifowose, J.O., Li, Z., Agarwal, G. Aboagye, EO., O'Regan, D., Ariff B., Copley, SJ., & Chen, M. Automated opportunistic cardiovascular risk assessment in non-small cell lung cancer patients on routine chest CT using an optimised nnU-net framework. BMC Med Imaging (2026). https://doi.org/10.1186/s12880-026-02252-z
+Anifowose, J.O., Li, Z., Agarwal, G., Aboagye, E.O., O'Regan, D.P., Ariff B., Copley, S.J., & Chen, M. Automated opportunistic cardiovascular risk assessment in non-small cell lung cancer patients on routine chest CT using an optimised nnU-net framework. BMC Med Imaging (2026). https://doi.org/10.1186/s12880-026-02252-z
 
 1) The model architecture is based on nnU-Net developed by Isensee et al. (2020) [paper](https://www.nature.com/articles/s41592-020-01008-z).
 2) Use of TotalSegmentator (nnU-Net-based multi-organ segmentation tool) is made in the pipeline, by Wasserthal et al. (2023) [paper](https://pubs.rsna.org/doi/10.1148/ryai.230024).
